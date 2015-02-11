@@ -21,7 +21,7 @@ class GoogleAnalytics {
 	*/
 	private $ga;
 	
-	/**
+     /**
      * Construct the GoogleAnalytics.
      *
      * @param string $ga
@@ -39,7 +39,7 @@ class GoogleAnalytics {
 		
 	}
 
-	/**
+     /**
      * Construct the GoogleAnalytics.
      *
      * @param date $fromDate
@@ -142,7 +142,7 @@ class GoogleAnalytics {
 
 	}
 
-	/**
+     /**
      * Construct the GoogleAnalytics.
      *
      * @param date $fromDate
@@ -163,7 +163,7 @@ class GoogleAnalytics {
 
 	}
 	
-	/**
+     /**
      * Construct the GoogleAnalytics.
      *
      * @param date $fromDate
