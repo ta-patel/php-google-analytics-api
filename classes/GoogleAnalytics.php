@@ -109,15 +109,15 @@ class GoogleAnalytics {
 		$pageviews = '';
 		$total_pageviews = $this->ga->requestReportData(self::PROFILEID, $dimensions, $metrics, $sort, $filter , $fromDate, $toDate,1, 5000);
 		foreach($total_pageviews as $result)
+		{
+			$metrics = $result->getMetrics();
+			$dimensions = $result->getDimesions();
+			foreach($metrics as $k)
 			{
-				$metrics = $result->getMetrics();
-				$dimensions = $result->getDimesions();
-				foreach($metrics as $k)
-				{
-							$pageviews +=  $k;
-				}
-
+				$pageviews +=  $k;
 			}
+
+		}
 		return $pageviews;
 
 	}
