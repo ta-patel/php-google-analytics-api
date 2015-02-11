@@ -11,9 +11,9 @@ class GoogleAnalytics {
 	/*
 	* Define the constants from your google analytics website settings.
 	*/
-	const PROFILEID = '94491810';
-	const GAPIUSERNAME = 'tashu.v.patel@gmail.com';
-	const GAPIPASSWORD = 'harshika1215';
+	const PROFILEID = 'xxxxxxxxx'; // profile id for your website from GA
+	const GAPIUSERNAME = 'xxxxxxxxx'; // username for GA account
+	const GAPIPASSWORD = 'xxxxxxxxxx'; // password for GA account
 	
 	/** 
 	* Google Analytics.

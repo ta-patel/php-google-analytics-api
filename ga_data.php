@@ -2,8 +2,8 @@
 
 require "classes/GoogleAnalytics.php";
 
-$fromDate = '2015-01-01';
-$toDate = '2015-01-31';
+$fromDate = 'xxxx-xx-xx';
+$toDate = 'xxxx-xx-xx';
 
 $google_analytics = new GoogleAnalytics();
 
